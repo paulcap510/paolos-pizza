@@ -17,14 +17,11 @@ const CardSection: React.FC = () => {
   return (
     <section id="featured" className="py-12 bg-gray-200">
       <div className="container mx-auto">
-        {/* Section Title */}
         <h2 className="text-4xl font-bold text-red-600 mb-12 text-center font-rubik">
           Featured Dishes
         </h2>
 
-        {/* Card Grid with 9 Images */}
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Map through the array of image URLs */}
           {imageUrls.map((url, index) => (
             <div
               key={index}

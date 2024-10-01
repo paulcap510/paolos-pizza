@@ -4,14 +4,11 @@ const ContactForm: React.FC = () => {
   return (
     <section id="contact" className="py-12 bg-gray-800">
       <div className="container mx-auto">
-        {/* Section Title */}
         <h2 className="text-4xl font-bold text-white mb-12 text-center font-rubik">
           Contact Us
         </h2>
 
-        {/* Contact Form */}
         <form className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-          {/* Name Field */}
           <div className="mb-6">
             <label
               htmlFor="name"
@@ -28,7 +25,6 @@ const ContactForm: React.FC = () => {
             />
           </div>
 
-          {/* Email Field */}
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -45,7 +41,6 @@ const ContactForm: React.FC = () => {
             />
           </div>
 
-          {/* Subject Field */}
           <div className="mb-6">
             <label
               htmlFor="subject"
@@ -62,7 +57,6 @@ const ContactForm: React.FC = () => {
             />
           </div>
 
-          {/* Message Field */}
           <div className="mb-6">
             <label
               htmlFor="message"

@@ -10,7 +10,6 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-red-900 text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Contact Information */}
         <div className="text-center md:text-left">
           <h4 className="text-xl font-bold mb-4 font-rubik">Contact Us</h4>
           <p>123 Pizza St, Food City, FC 45678</p>
@@ -26,7 +25,6 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="text-center md:text-left">
           <h4 className="text-xl font-bold mb-4 font-rubik">Quick Links</h4>
           <ul className="space-y-2">
@@ -73,7 +71,6 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
         <div className="text-center md:text-left">
           <h4 className="text-xl font-bold mb-4 font-rubik">Follow Us</h4>
           <div className="flex justify-center md:justify-start space-x-6">
