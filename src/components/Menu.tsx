@@ -10,12 +10,13 @@ const Menu: React.FC = () => {
         </h2>
 
         <div className="grid gap-16">
+          {/* Appetizers Section */}
           <div>
             <h3 className="text-3xl font-semibold text-orange-500 mb-4 font-rubik">
               Appetizers
             </h3>
             <ul className="space-y-4">
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Bruschetta</h4>
                   <span className="text-red-600 font-semibold">$8.00</span>
@@ -24,7 +25,7 @@ const Menu: React.FC = () => {
                   Grilled bread with tomato, garlic, and basil.
                 </p>
               </li>
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Garlic Bread</h4>
                   <span className="text-red-600 font-semibold">$5.00</span>
@@ -36,12 +37,13 @@ const Menu: React.FC = () => {
             </ul>
           </div>
 
+          {/* Main Courses Section */}
           <div>
             <h3 className="text-3xl font-semibold text-orange-500 mb-4 font-rubik">
               Main Courses
             </h3>
             <ul className="space-y-4">
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Margherita Pizza</h4>
                   <span className="text-red-600 font-semibold">$12.00</span>
@@ -50,7 +52,7 @@ const Menu: React.FC = () => {
                   Classic pizza with tomato sauce, mozzarella, and basil.
                 </p>
               </li>
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Pepperoni Pizza</h4>
                   <span className="text-red-600 font-semibold">$14.00</span>
@@ -62,12 +64,13 @@ const Menu: React.FC = () => {
             </ul>
           </div>
 
+          {/* Desserts Section */}
           <div>
             <h3 className="text-3xl font-semibold text-orange-500 mb-4 font-rubik">
               Desserts
             </h3>
             <ul className="space-y-4">
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Tiramisu</h4>
                   <span className="text-red-600 font-semibold">$7.00</span>
@@ -77,7 +80,7 @@ const Menu: React.FC = () => {
                   ladyfingers and mascarpone cream.
                 </p>
               </li>
-              <li className="bg-white p-4 rounded shadow-md">
+              <li className="bg-white p-4 rounded shadow-md transform transition-transform duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-lg">
                 <div className="flex justify-between items-center">
                   <h4 className="text-lg font-bold">Gelato</h4>
                   <span className="text-red-600 font-semibold">$6.00</span>
@@ -90,6 +93,7 @@ const Menu: React.FC = () => {
           </div>
         </div>
 
+        {/* See Full Menu Button */}
         <div className="mt-12 flex justify-center">
           <Link
             to="/full-menu"
